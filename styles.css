@@ -1,0 +1,772 @@
+:root{
+    --text-color: #f4f4f4;
+    --background-color: #251462;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;   
+    user-select: none;
+    color: white;
+}
+
+
+body{
+    background-color: #251462;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding-top: 20px;
+    color: var(--text-color);
+}
+
+.header .flex i{
+    margin: 10px;
+}
+
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:1.5rem;
+    font-size: 0.90rem;
+    text-transform: uppercase;
+    text-anchor: middle;
+    font-weight:600;
+    
+}
+
+.header .logo{
+    width: 12rem;
+    color: white;
+    
+}
+
+.header .logo-2{
+    display: none;
+}
+
+.header .flex .fa-bars{
+    display: none;
+}
+
+.galeria-uno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    max-width: 1200px;
+}
+
+
+
+.galeria-uno .box-two h1{
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+
+.galeria-uno .box-two h2{
+    color: black;
+    background-color: #f4f4f4;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.galeria-uno .box-two p{
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+
+.galeria-uno .box-two .faq .box{
+    padding: 20px;
+    background-color: #2F3132;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.galeria-uno .box-two .faq .box p{
+    display: none;
+}
+
+.galeria-dos{
+    width: 100%;
+}
+
+.galeria-dos .box-mouses img{
+    width: 100%;
+}
+
+.galeria-dos .box-mouses{
+    position: relative;  
+    text-align: center;
+}
+
+.galeria-dos .box-mouses .title{
+    display: inline-block;
+    position: absolute;
+    font-size: 2.5rem;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.galeria-tres{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 6rem;
+    padding-top: 6rem;
+}
+
+.galeria-tres .box-title{
+    padding-bottom: 9rem;
+}
+
+.galeria-tres .box-title h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.galeria-tres .box-title p{
+    max-width: 600px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.galeria-tres .box-icons{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.galeria-tres .box-icons .box-image img{
+    width: 5.5rem;
+} 
+
+.galeria-tres .box-icons .box-content{
+    text-align: left;
+    max-width: 240px;
+}
+
+.galeria-tres .box-icons .box-content h2{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.galeria-tres .box-icons .box-content h3{
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.galeria-cuatro {
+    max-width: 100%;
+
+}
+
+.galeria-cuatro a{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #7AADD3;
+    text-decoration: none;
+}
+
+.galeria-cuatro .hr{
+    width: 20%;
+    margin: auto;
+    height: 10px;
+    background-color: #a6a6a69e;
+}
+
+.galeria-cuatro .icon-responsive{
+    width: 6rem;
+    margin: auto;
+}
+
+.galeria-cuatro .interruptores{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(./assets/4-Section/g502x-corded-01-banner-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.galeria-cuatro .interruptores .interruptores-content{
+    width: 70%;
+    text-align: center;  
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.galeria-cuatro .sensor {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(./assets/4-Section/artanis-g502x-corded-02-banner-mobile-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+
+.galeria-cuatro .sensor .interruptores-content{
+    width: 70%;
+    text-align: center;  
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+.galeria-cuatro .dpi{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url(./assets/4-Section/g502x-corded-03-banner-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.galeria-cuatro .dpi .interruptores-content{
+    width: 70%;
+    text-align: center;  
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+
+
+.galeria-cinco .hr{
+    width: 600px; 
+    height: 5px;     
+    background-color: #FFFFFF; 
+
+}
+
+.galeria-cinco .mouse-images h1{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.galeria-cinco .mouse-images{
+    background-color: #1C1C1C;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.galeria-cinco .mouse-images img{
+    width: 600px;
+
+}
+
+.galeria-seis{
+    background: black;
+    padding-bottom: 5rem;
+}
+
+.galeria-seis .content-seis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.galeria-seis .content-seis h2{
+    font-size: 45px;
+    color: #c3c6c8;
+}
+
+.galeria-seis .content-seis button{
+    background-color: #000000;
+    border: solid #00B8FC 1px;
+    border-radius: 5px;
+    padding: 20px 42px;
+    max-width: 500px;
+    color: #00B8FC;
+     font-size: 0.9rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+}
+
+.galeria-seis .content-seis button:hover{
+    border: solid 0.1rem #93e1fd;
+    color: #93e1fd;
+    cursor: pointer;
+}
+
+.galeria-seis .seis-mouses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+
+.galeria-seis .seis-mouses .mouses{
+    text-align: center;
+    
+}
+
+
+.galeria-seis .mouses a{
+    color:#00B8FC;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.galeria-seis .mouses a:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer a{
+    color: black;
+    margin: 10px;
+    font-size: 0.9rem;
+    
+}
+
+.footer a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.footer .footer-links {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.footer .footer-links .footer-links-a{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .footer-contact{
+   
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.footer .footer-contact h3{
+    font-size: 0.7rem;
+    color: #2f3132;
+    padding-top: 10px;
+}
+
+.footer .footer-contact .email{
+    padding-top: 40px;
+}
+.footer .footer-contact .email button{
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-left: -10px;
+    background-color: #262626;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer .footer-contact .email .email-checking{
+    max-width: 400px;
+    display: flex;  
+    
+}
+
+.footer .footer-contact .email .email-checking label{
+    padding-top: 23px;
+    color: #697172;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.footer .footer-contact .email .email-checking label a{
+    margin: 0px;
+    text-decoration: underline;
+    color: #00b8fc;
+}
+
+.footer .footer-contact .email .email-checking label a:hover{
+    text-decoration: none;
+    color: #147497;
+}
+
+.footer .footer-contact .email .email-checking .checkbox-input{
+    border: 10px solid gray;
+}
+
+.footer .footer-contact .email .email-checking #suscribir{
+    width: 50px;
+    margin-right: 10px;
+    border: 10px solid gray;
+    
+}
+.footer .footer-contact input {
+        padding: 19px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #f9f9f9;
+}
+
+.footer .footer-contact .icons object{
+    margin: 10px;
+}
+
+
+
+@media (max-width:1170px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+    .header .logo-2{
+        display: block;
+        width: 400px;
+    }
+
+    .header .logo{
+        display: none;
+    }
+
+    .header .fa-magnifying-glass{
+        display: none;
+    }
+
+    .header .flex{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+
+    .header .flex .fa-bars {
+        display: inline-block;
+    }
+
+    .header .flex .fa-user{
+        display: none;
+    }
+
+    .header .navbar{
+        flex-flow: column;
+        display:none;
+    }
+
+    .header .navbar.active{
+        display: flex;
+    }
+
+
+
+    .galeria-seis .seis-mouses{
+        flex-wrap: wrap;
+    }
+
+    .galeria-seis .seis-mouses .mouses{
+        margin: 2rem;
+    }
+    
+    
+}
+    
+
+@media(min-width: 1414px) {
+
+    .galeria-cuatro .hr{
+        margin: 0;
+    }
+    .galeria-cuatro .interruptores{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-image: url(./assets/4-Section/g502x-corded-01-banner-desktop.png);
+        background-size: cover;
+    }
+
+    .galeria-cuatro .interruptores .interruptores-content{
+        width: 40%;
+        text-align: left;
+        padding-top: 2rem;
+        padding-left: 25rem;
+    }
+
+    .galeria-cuatro .interruptores .interruptores-content .icon-responsive{
+        margin: 0;
+    }
+
+    .galeria-cuatro .sensor{
+        padding-top: 15rem;
+        padding-bottom: 14rem;
+        height: 100%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        background-image: url(./assets/4-Section/artanis-g502x-corded-02-banner-desktop-2.png);
+        background-size: cover;
+    }
+
+    .galeria-cuatro .sensor .interruptores-content{
+        width: 40%;
+        padding-top: 2rem;
+        padding-right: 20rem;
+        text-align: left;
+    }
+
+    .galeria-cuatro .sensor .interruptores-content .icon-responsive{
+        margin: 0;
+    }
+
+    .galeria-cuatro .dpi{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(./assets/4-Section/g502x-corded-03-banner-desktop.png);
+        background-size: cover;
+    }
+
+    .galeria-cuatro .dpi .interruptores-content{
+        width: 80%;
+        text-align: left;  
+        padding-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        padding-left: 12rem;
+    }
+
+    .galeria-cuatro .dpi .interruptores-content p{
+        width: 40%;
+    }
+
+   
+}
+
+@media(max-width:850px)  {
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        margin-bottom: 2rem;
+       
+    }
+
+
+    .header .flex .fa-bars {
+        display: inline-block;
+    }
+
+    .header .flex .fa-bars:hover{
+        cursor: pointer;
+    }
+    .header .logo-2{
+        width: 150px;
+    }
+
+    .galeria-uno{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .galeria-uno .box-one img{
+        width: 180px;
+    }
+
+    .galeria-uno .box-two h1{
+        font-size: 1.7rem;;
+    }
+
+    .galeria-uno .box-two p{
+        font-size: 12px;
+    }
+
+    .galeria-uno .box-two .faq{
+        font-size: 18px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    
+
+
+    .galeria-dos .box-mouses img{
+        width: 100%;
+    }   
+
+    .galeria-dos .box-mouses .title{
+        display: none;
+    }
+
+    .galeria-tres .box-title h1{
+        font-size: 1.7rem;
+    }
+
+
+    .galeria-tres .box-icons{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galeria-tres .box-icons .box-content{
+        text-align: center;
+    }
+
+    .galeria-tres .box-icons .box-image img{
+        width: 50%;
+        max-width: 10rem;
+    }
+
+    .galeria-cuatro{
+        width: 100%;
+        text-align: center;
+    }
+
+    .galeria-cuatro h1{
+        font-size: 1.2rem;
+    }
+    .galeria-cuatro a{
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #7AADD3;
+        text-decoration: none;
+    }
+        
+    
+    .galeria-cinco .mouse-images h1{
+        display: none;
+    }
+
+    .galeria-cinco .hr{
+       display: none;
+        
+    }
+    .galeria-cinco .mouse-images img{
+        width: 100%;
+    }
+
+    .galeria-cinco .mouse-images .video{
+        width: 100%;
+    }
+
+    .galeria-seis .content-seis h2{
+        font-size: 1.9rem;
+        text-align: center;
+        color: #c3c6c8;
+    }
+
+    .galeria-seis .content-seis button{
+        margin: 1rem;
+    }
+
+    .galeria-seis .seis-mouses .mouses{
+        display: flex;
+        flex-direction: column;
+    justify-content: space-around;
+       gap: 1.5rem;
+    }
+
+    .galeria-seis .seis-mouses .mouses img{
+        width: 100%;
+    }
+
+    
+
+    .galeria-seis .mouses p{
+       font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .footer .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-contact{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-contact .email-suscripcion{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .footer .footer-contact .email-suscripcion input{
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+    }
+
+    .footer .footer-contact .email-suscripcion button{
+      margin-right: 2rem;
+      margin-left: 2rem;
+      margin-top: 1.2rem;
+    }
+
+    .footer .footer-contact .email .email-checking{
+        padding-left: 1rem;
+    }
+
+
+}
